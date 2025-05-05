@@ -49,7 +49,7 @@ class linkedlist{
                 currentpos++;
             }
             if(temp==NULL){
-                cout<<"Position invalid "<<endl;
+                cout<<" invalid position "<<endl;
                 delete newnode;
                 return;
             }
