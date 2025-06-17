@@ -62,8 +62,10 @@ int main(){
     obj.addatend(6);
     obj.addatend(4);
     obj.addatend(1);
+    cout<<"Original list: ";
     obj.display();
     obj.bubblesorting ();
     cout<<endl;
+    cout<<"Sorted list: ";
     obj.display();
 }
