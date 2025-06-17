@@ -4,11 +4,11 @@ struct Node {
 Node *next;
 int data;
 };
-class linkedlist{
+class Linkedlist{
     Node* head;
     int size=0;
     public:
-    linkedlist(){
+    Linkedlist(){
         head=NULL;
     }
      void addatbeginning(int value ){
@@ -57,7 +57,7 @@ class linkedlist{
     }
 };
 int main(){
-    linkedlist obj;
+    Linkedlist obj;
     obj.addatbeginning(9);
     obj.addatend(6);
     obj.addatend(4);
