@@ -50,7 +50,7 @@ class linkedlist{
     curr++;
     }
     if(temp==NULL){
-        cout<<"Invalid postion ";
+        cout<<"postion Invalid";
         delete newnode;
         return;
     }
